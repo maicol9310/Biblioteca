@@ -4,14 +4,106 @@
     "C:\\Users\\SHAX\\Desktop\\Biblioteca\\Biblioteca.Web\\Biblioteca.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SHAX\\Desktop\\Biblioteca\\Biblioteca.Web\\Biblioteca.Web.csproj": {
+    "C:\\Users\\SHAX\\Desktop\\Biblioteca\\Biblioteca.Application\\Biblioteca.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SHAX\\Desktop\\Biblioteca\\Biblioteca.Web\\Biblioteca.Web.csproj",
-        "projectName": "Biblioteca.Web",
-        "projectPath": "C:\\Users\\SHAX\\Desktop\\Biblioteca\\Biblioteca.Web\\Biblioteca.Web.csproj",
+        "projectUniqueName": "C:\\Users\\SHAX\\Desktop\\Biblioteca\\Biblioteca.Application\\Biblioteca.Application.csproj",
+        "projectName": "Biblioteca.Application",
+        "projectPath": "C:\\Users\\SHAX\\Desktop\\Biblioteca\\Biblioteca.Application\\Biblioteca.Application.csproj",
         "packagesPath": "C:\\Users\\SHAX\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SHAX\\Desktop\\Biblioteca\\Biblioteca.Web\\obj\\",
+        "outputPath": "C:\\Users\\SHAX\\Desktop\\Biblioteca\\Biblioteca.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SHAX\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\SHAX\\Desktop\\Biblioteca\\Biblioteca.Domain\\Biblioteca.Domain.csproj": {
+                "projectPath": "C:\\Users\\SHAX\\Desktop\\Biblioteca\\Biblioteca.Domain\\Biblioteca.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.5.1, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.5.1, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\SHAX\\Desktop\\Biblioteca\\Biblioteca.Domain\\Biblioteca.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\SHAX\\Desktop\\Biblioteca\\Biblioteca.Domain\\Biblioteca.Domain.csproj",
+        "projectName": "Biblioteca.Domain",
+        "projectPath": "C:\\Users\\SHAX\\Desktop\\Biblioteca\\Biblioteca.Domain\\Biblioteca.Domain.csproj",
+        "packagesPath": "C:\\Users\\SHAX\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SHAX\\Desktop\\Biblioteca\\Biblioteca.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SHAX\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +131,167 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\SHAX\\Desktop\\Biblioteca\\Biblioteca.Infrastructure\\Biblioteca.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\SHAX\\Desktop\\Biblioteca\\Biblioteca.Infrastructure\\Biblioteca.Infrastructure.csproj",
+        "projectName": "Biblioteca.Infrastructure",
+        "projectPath": "C:\\Users\\SHAX\\Desktop\\Biblioteca\\Biblioteca.Infrastructure\\Biblioteca.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\SHAX\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SHAX\\Desktop\\Biblioteca\\Biblioteca.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SHAX\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\SHAX\\Desktop\\Biblioteca\\Biblioteca.Application\\Biblioteca.Application.csproj": {
+                "projectPath": "C:\\Users\\SHAX\\Desktop\\Biblioteca\\Biblioteca.Application\\Biblioteca.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\SHAX\\Desktop\\Biblioteca\\Biblioteca.Web\\Biblioteca.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\SHAX\\Desktop\\Biblioteca\\Biblioteca.Web\\Biblioteca.Web.csproj",
+        "projectName": "Biblioteca.Web",
+        "projectPath": "C:\\Users\\SHAX\\Desktop\\Biblioteca\\Biblioteca.Web\\Biblioteca.Web.csproj",
+        "packagesPath": "C:\\Users\\SHAX\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SHAX\\Desktop\\Biblioteca\\Biblioteca.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SHAX\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\SHAX\\Desktop\\Biblioteca\\Biblioteca.Application\\Biblioteca.Application.csproj": {
+                "projectPath": "C:\\Users\\SHAX\\Desktop\\Biblioteca\\Biblioteca.Application\\Biblioteca.Application.csproj"
+              },
+              "C:\\Users\\SHAX\\Desktop\\Biblioteca\\Biblioteca.Infrastructure\\Biblioteca.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\SHAX\\Desktop\\Biblioteca\\Biblioteca.Infrastructure\\Biblioteca.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
