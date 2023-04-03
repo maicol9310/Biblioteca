@@ -15,6 +15,9 @@ namespace Biblioteca.Application.Interfaces
     {
         DatabaseFacade Database { get; }
         DbSet<Book> Books { get; set; }
+        DbSet<Autores> Autores { get; set; }
+        DbSet<AutoresHasLibros> AutoresHasLibros { get; set; }
+        DbSet<editoriales_> editoriales { get; set; }
         Task<int> SaveChangesAsync(CancellationToken cancellationToken);
         Task CommitTransactionAsync();
         void RollbackTransaction();

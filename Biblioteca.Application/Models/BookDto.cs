@@ -1,11 +1,7 @@
 ﻿using Biblioteca.Application.Mappings;
 using Biblioteca.Domain.Entities;
-using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Biblioteca.Application.Models
 {
@@ -13,9 +9,17 @@ namespace Biblioteca.Application.Models
     {
         [Key]
         public int IBSN { get; set; }
+
+        [Required()]
         public int editoriales_id { get; set; }
+
+        [Required()]
         public string titulos { get; set; }
+
+        [Required()]
         public string sinopsis { get; set; }
+
+        [Required()]
         public int n_paginas { get; set; }
     }
 }

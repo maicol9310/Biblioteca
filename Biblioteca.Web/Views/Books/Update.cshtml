@@ -1,0 +1,52 @@
+﻿@using Biblioteca.Application.Models;
+@model BookDto
+
+@{
+    ViewData["Title"] = "Update";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+
+    <div class="row">
+        <div class="col-sm-12">
+            <h2>Update Book</h2>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-12">
+            <form method="post" asp-action="Update">
+
+                <input type="hidden" asp-for="IBSN"/>
+
+                <div asp-validation-summary="All" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="editoriales_id" class="control-label"></label>
+                    <input asp-for="editoriales_id" class="form-control" />
+                    <span asp-validation-for="editoriales_id" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="titulos" class="control-label"></label>
+                    <input asp-for="titulos" class="form-control" />
+                    <span asp-validation-for="titulos" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="sinopsis" class="control-label"></label>
+                    <input asp-for="sinopsis" class="form-control" />
+                    <span asp-validation-for="sinopsis" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="n_paginas" class="control-label"></label>
+                    <input asp-for="n_paginas" class="form-control" />
+                    <span asp-validation-for="n_paginas" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Update Book" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+
+</div>
+

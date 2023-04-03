@@ -19,15 +19,8 @@ using Biblioteca.Web;
 #line default
 #line hidden
 #nullable disable
-#nullable restore
-#line 2 "C:\Users\SHAX\Desktop\Biblioteca\Biblioteca.Web\Views\_ViewImports.cshtml"
-using Biblioteca.Web.Models;
-
-#line default
-#line hidden
-#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7091c65830b0329e613be026ede8a57552863778", @"/Views/_ViewStart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"0c6e638e8d362c257eb259a60afd81f7870588b8", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7b962845d6f5eef9c18fe3352a00151802879ff7", @"/Views/_ViewImports.cshtml")]
     public class Views__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

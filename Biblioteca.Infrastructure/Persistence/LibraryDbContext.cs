@@ -23,6 +23,12 @@ namespace Biblioteca.Infrastructure.Persistence
 
         public DbSet<Book> Books { get; set; }
 
+        public DbSet<Autores> Autores { get; set; }
+
+        public DbSet<AutoresHasLibros> AutoresHasLibros { get; set; }
+
+        public DbSet<editoriales_> editoriales { get; set; }
+
         public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = new CancellationToken())
         {
             foreach (var entry in ChangeTracker.Entries())
